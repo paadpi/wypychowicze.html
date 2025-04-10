@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sprzedaj nieruchomość z maksymalnym zyskiem i minimalnym stresem!</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #000;
+    }
+    form {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #333;
+    }
+    .benefits, .testimonials, .examples {
+      margin-bottom: 40px;
+    }
+    .benefits ul {
+      list-style-type: none;
+    }
+    .benefits li {
+      margin-bottom: 10px;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+      background: #f9f9f9;
+      padding: 15px;
+      border-left: 5px solid #ffcc00;
+    }
+    .agent-photo {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 20px;
+      }
+      header img {
+        max-width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/75_Logo_metrohouse_zolte.jpg" alt="Metrohouse Logo">
+  </header>
+
+  <div class="container">
+    <h1>Sprzedaj nieruchomość z maksymalnym zyskiem i minimalnym stresem!</h1>
+
+    <form>
+      <input type="text" name="firstName" placeholder="Imię" required>
+      <input type="text" name="lastName" placeholder="Nazwisko" required>
+      <input type="tel" name="phone" placeholder="Numer telefonu" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Dodatkowe informacje (opcjonalnie)"></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+
+    <section class="benefits">
+      <h2>Korzyści ze współpracy</h2>
+      <ul>
+        <li>✅ Najwyższa cena sprzedaży – wykonam dokładną analizę rynku.</li>
+        <li>✅ Skuteczna promocja – Twoja oferta wyróżni się na tle innych.</li>
+        <li>✅ Negocjacje bez stresu – zadbam o najlepsze warunki sprzedaży.</li>
+        <li>✅ Wsparcie na każdym etapie – od rozmowy po przekazanie kluczy.</li>
+      </ul>
+      <p>📞 Zadzwoń: 506 187 127</p>
+    </section>
+
+    <section class="testimonials">
+      <h2>Opinie klientów</h2>
+      <div class="testimonial">
+        <p><strong>Katarzyna Urzykowska</strong><br>
+        Polecam w 100% współprace z tym Biurem, z Panią Magdą i Panem Piotrem. Profesjonalizm, podejście do klienta, zaangażowanie na najwyższym poziomie.</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>Radek D.</strong><br>
+        Agencja Nieruchomości bardzo profesjonalna, zaangażowana oraz skuteczna. Prowadzący ją Pani Magda i Pan Piotr dodatkowo sympatyczni i zawsze dostępni.</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>Janina Godlewska</strong><br>
+        Polecam każdemu Biuro Nieruchomości. Pełen profesjonalizm, miła obsługa, fachowa pomoc i doradztwo.</p>
+      </div>
+    </section>
+
+    <section class="examples">
+      <h2>Przykłady sprzedanych nieruchomości</h2>
+      <p>[Tutaj możesz dodać zdjęcia i opisy sprzedanych nieruchomości]</p>
+    </section>
+
+    <img src="/mnt/data/pixlr-bg-result.png" alt="Agent nieruchomości" class="agent-photo">
+  </div>
+</body>
+</html>
